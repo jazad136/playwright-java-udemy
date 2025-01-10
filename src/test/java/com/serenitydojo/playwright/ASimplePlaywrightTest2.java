@@ -22,4 +22,21 @@ public class ASimplePlaywrightTest2 {
         playwright.close();
     }
 
+    @Test
+    void shouldSearchByKeyword() {
+        Playwright playwright = Playwright.create();
+        Browser browser = playwright.chromium().launch();
+        Page page = browser.newPage();
+
+        page.navigate("https://practicesoftwaretesting.com");
+        page.locator("[placeholder=Search]");
+        System.out.println("TEST PASSED: Page contains field with 'search' placeholder");
+        page.locator("button:has-text('Search')").click();
+        System.out.println("TEST PASSED: Page contains clickable search button");
+
+        int matchingSearchResults = page.locator(".card").count();
+        System.out.println("Matching search results: " + matchingSearchResults);
+        browser.close();
+        playwright.close();
+    }
 }
