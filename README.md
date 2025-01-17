@@ -49,7 +49,10 @@ The table below maps each Git branch in this repository to its corresponding Ude
 | Module 14  | `sample-code/module-14-organizing-your-tests`    | [Organizing Your Tests](https://www.udemy.com/course/mastering-modern-test-automation-with-playwright-in-java/learn/lecture/46833089#overview)           |
 | Module 15  | `sample-code/module-15-parallel-execution`       | [Parallel Execution](https://www.udemy.com/course/mastering-modern-test-automation-with-playwright-in-java/learn/lecture/46835495#overview)              |
 | Module 16  | `sample-code/module-16-allure-reporting`         | [Allure Reporting](https://www.udemy.com/course/mastering-modern-test-automation-with-playwright-in-java/learn/lecture/46849301#overview)                |
+<<<<<<< HEAD
 | Module 17  | `sample-code/module-17-cucumber`                 | [Cucumber](https://www.udemy.com/course/mastering-modern-test-automation-with-playwright-in-java/learn/lecture/46906341#overview)                        |
+=======
+>>>>>>> js_2-3_start-here
 
 ---
 
